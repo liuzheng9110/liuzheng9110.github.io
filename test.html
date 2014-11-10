@@ -10,13 +10,18 @@
 <script type="text/javascript">
 	function jsCallJava(){
 		window.js2java.btnClick();
-		alert("aaa");
+	}
+
+	function jsCallJava(var v){
+		window.js2java.btnClick(v);
 	}
 </script>
 
  </head>
 
  <body>
-    <input type="button" value="button" onclick="jsCallJava()">
+    <input type="button" value="button no args" onclick="jsCallJava()">
+	<br >
+	<input type="button" value="button has args" onclick="jsCallJava('1.1-1.11')">
  </body>
 </html>
