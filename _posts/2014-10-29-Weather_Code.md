@@ -14,8 +14,7 @@ title: 中国天气网城市代码
 ##### 特殊天气提示语<br/>
 ![signals](../img/signals.png "特殊天气提示语")
 
-
-
+相关文件下载:![weather_res.rar](../files/weather_res.rar)
 
 
 
