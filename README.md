@@ -1,3 +1,3 @@
-## liuzheng9110.github.io
+## liuz.me
 
 ![Think](img/Think.png)
