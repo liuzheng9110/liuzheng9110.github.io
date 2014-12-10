@@ -10,7 +10,7 @@
                 "rtnCode": "24",
                 "rtnMsg": "get msg succ!!",
                 "totalCount": "11", 
-		"fileContent":"dddadjfhiweurbddjh29863sdfb"
+		"fileContent":"dddadjfhiweurbddjh29863sdfb",
                 "items":[{
 				"fileUrl":"http://xxx.xx.xx//xxx/xxx/xx_0.jpg"
 			},{
@@ -20,7 +20,7 @@
         },
         "returnState": {
             "returnCode": "00",
-            "returnMessage": "请求处理成功"
+            "returnMessage": "response succ!"
         }
     }
 }
