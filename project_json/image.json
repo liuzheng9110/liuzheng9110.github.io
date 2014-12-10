@@ -1,0 +1,26 @@
+{
+    "tiripPackage": {
+        "service": {
+            "serviceId": "ITAX.APP.GWZW.TIFF",
+            "tranSeq": "1357505760620140417111526135098907",
+            "tranReqDate": "2014-04-08 11:09:38"
+        },
+        "businessContent": {
+            "response": {
+                "rtnCode": "24",
+                "rtnMsg": "获取个人待办列表成功",
+                "totalCount": "11", 
+		"fileContent":"dddadjfhiweurbddjh29863sdfb"
+                "items":[{
+				"fileUrl":"http://xxx.xx.xx//xxx/xxx/xx_0.jpg"
+			},{
+				"fileUrl":"http://xxx.xx.xx//xxx/xxx/xx_1.jpg"
+			}]
+            }
+        },
+        "returnState": {
+            "returnCode": "00",
+            "returnMessage": "请求处理成功"
+        }
+    }
+}
