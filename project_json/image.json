@@ -1,0 +1,26 @@
+{
+    "tiripPackage": {
+        "service": {
+            "serviceId": "ITAX.APP.GWZW.TIFF",
+            "tranSeq": "1357505760620140417111526135098907",
+            "tranReqDate": "2014-04-08 11:09:38"
+        },
+        "businessContent": {
+            "response": {
+                "rtnCode": "24",
+                "rtnMsg": "get msg succ!!",
+                "totalCount": "11", 
+		"fileContent":"dddadjfhiweurbddjh29863sdfb"
+                "items":[{
+				"fileUrl":"http://liuz.me//images/config.png"
+			},{
+				"fileUrl":"http://liuz.me//images/first-post.png"
+			}]
+            }
+        },
+        "returnState": {
+            "returnCode": "00",
+            "returnMessage": "reponse msg succ!!"
+        }
+    }
+}
