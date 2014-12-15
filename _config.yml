@@ -19,6 +19,7 @@ email: liuzhengoya@gmail.com
 # Flags below are optional
 #
 
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   baidu: liuz918
@@ -36,6 +37,12 @@ footer-links:
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
+
+# duoshuo shortname
+comments:
+  provide: duoshuo
+  duoshuo:
+    short_name: liuzheng
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: 
