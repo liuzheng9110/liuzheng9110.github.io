@@ -1,9 +1,21 @@
 ---
 layout: post
-title: 中国天气网城市代码
+title: 中国天气网城市
 ---
 
-最近闲来无事  准备写个天气预报的APP  但又不想搞那么复杂 找webservice 就从了中国天气网的apk assets中提取出他的城市列表文件、天气图标和其他资源文件
+ [中国天气网](http://www.weather.com.cn/data/sk/101250101.html)
+
+ `
+ http://www.weather.com.cn/data/sk/101250101.html
+ `
+
+ 天气的另外还有一个百度的api   http://xxxx?location=长沙&xxxxxxx
+ `http://api.map.baidu.com/telematics/v3/weather?location=%E9%95%BF%E6%B2%99&output=json&ak=640f3985a6437dad8135dae98d775a09
+ `
+![baiduweather](../img/baidu_weather.png)
+
+
+中国天气网 城市列表文件、天气图标和其他资源文件
 
 ##### apk assets 文件列表<br/>
 ![weather_resource](../img/weather_resource.png "apk assets 文件列表")
