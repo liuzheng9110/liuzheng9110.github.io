@@ -5,12 +5,15 @@ title: 中国天气网城市
 	
  返回的都是json数据
 
- [中国天气网_长沙](http://www.weather.com.cn/data/sk/101250101.html)
+ [china_weather_changsha](http://www.weather.com.cn/data/sk/101250101.html)
 
  示例链接 
+
  `
  http://www.weather.com.cn/data/sk/101250101.html
  `
+
+ ![china_weather](../img/china_weather.png)
 
  天气的另外还有一个百度的api 
 
@@ -18,7 +21,7 @@ title: 中国天气网城市
  
  `http://api.map.baidu.com/telematics/v3/weather?location=%E9%95%BF%E6%B2%99&output=json&ak=640f3985a6437dad8135dae98d775a09
  ` 
-![baiduweather](../img/baidu_weather.png)
+![baidu_weather](../img/baidu_weather.png)
 
 
 中国天气网 城市列表文件、天气图标和其他资源文件
