@@ -3,13 +3,14 @@ layout: post
 title: 中国天气网城市
 ---
 
- [中国天气网](http://www.weather.com.cn/data/sk/101250101.html)
+ [中国天气网_长沙](http://www.weather.com.cn/data/sk/101250101.html)
 
  `
  http://www.weather.com.cn/data/sk/101250101.html
  `
 
  天气的另外还有一个百度的api   http://xxxx?location=长沙&xxxxxxx
+ [baidu_changsha](http://api.map.baidu.com/telematics/v3/weather?location=%E9%95%BF%E6%B2%99&output=json&ak=640f3985a6437dad8135dae98d775a09)
  `http://api.map.baidu.com/telematics/v3/weather?location=%E9%95%BF%E6%B2%99&output=json&ak=640f3985a6437dad8135dae98d775a09
  `
 ![baiduweather](../img/baidu_weather.png)
