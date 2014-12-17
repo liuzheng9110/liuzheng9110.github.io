@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 中国天气网城市
+title: 城市天气公共接口
 ---
 	
  返回的都是json数据
