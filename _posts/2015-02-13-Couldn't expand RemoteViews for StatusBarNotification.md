@@ -1,6 +1,6 @@
 ---
-layout:post
-title:自定义通知遇到的问题 Couldn't expand RemoteViews for StatusBarNotification
+layout: post
+title: 自定义通知遇到的问题 Couldn't expand RemoteViews for StatusBarNotification
 ---
 
 最近有个项目有需要自定义通知布局  在运行过程中出现如下错误
