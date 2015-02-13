@@ -15,7 +15,8 @@ google 找了很多  都没有解决方案  最终在官方api找到了相关�
 [http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout](http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout)
 
 
-大概意思是RemoteView 只支持如下几种布局/控件  同时也支持 `ViewStub`
+大概意思是RemoteView 只支持如下几种布局/控件  同时也支持 `ViewStub` 
+
 #### 布局
 1. FrameLayout
 2. LinearLayout
