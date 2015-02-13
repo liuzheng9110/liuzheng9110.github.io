@@ -1,4 +1,3 @@
-
 --
 layout:post
 title:自定义通知遇到的问题 Couldn't expand RemoteViews for StatusBarNotification
