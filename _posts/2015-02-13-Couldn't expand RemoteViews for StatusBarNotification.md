@@ -38,3 +38,7 @@ google 找了很多  都没有解决方案  最终在官方api找到了相关�
 12. AdapterViewFlipper
 
 
+以上 布局控件 同样和适用于AppWidget  
+
+
+
