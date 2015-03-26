@@ -17,6 +17,7 @@ title: Android string.xml 特殊符号
 
 以下为常见的ASCII十进制交换编码： 
 
+`
 &#032;--> <-- 这边是空格 
 &#033;-->!<-- 
 &#034;-->"<-- xml中需要在前面加入\ 
@@ -273,7 +274,7 @@ title: Android string.xml 特殊符号
 &#380;-->ż<-- 
 &#381;-->Ž<-- 
 &#382;-->ž<-- 
+`
 
 
-
-via:[http://blog.csdn.net/z1074971432/article/details/12753539][http://blog.csdn.net/z1074971432/article/details/12753539]
+via:[http://blog.csdn.net/z1074971432/article/details/12753539](http://blog.csdn.net/z1074971432/article/details/12753539)
