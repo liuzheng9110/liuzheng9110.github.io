@@ -15,14 +15,15 @@ title:: 个人使用软件、小工具(windows/Andorid)
 - [MiniSniffer](https://github.com/liuzheng9110/liuz.me/tree/master/soft_resource/) 超小型的抓包软件 
 - [SoapUI](http://www.soapui.org/) webservice 测试工具 
 - [硕鼠Flvcd](http://www.flvcd.com) 视频下载地址解析 
+- [f.lux](https://justgetflux.com/) 屏幕色温调节 
 
 ### Browser Plugin
-- 
+- [JSON-handle](../files/json-handle-0.0.2.2.crx) chrome json 格式化插件
 - 
 - 
 
 ### Android 
-- 
+- [薄暮微光(Twlight)](http://play.google.com/store/apps/details?id=com.urbandroid.lux) 手机屏幕色温调节，和f.lux效果一样 
 - 
 - 
 - 
