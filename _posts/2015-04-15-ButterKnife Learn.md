@@ -24,81 +24,81 @@ title: ButterKnife 简单使用
 * Activity 
 
 ```java
-public class ButterKnifeActivity extends BaseActivity {
-    // 6.1.0 初始化
-    //@InjectView(R.id.text_view) TextView textView;
-	//@InjectView(R.id.editText) EditText editText;
-	//@InjectView(R.id.button) Button button;
-	//@InjectView(R.id.list_view) ListView listView;
+	public class ButterKnifeActivity extends BaseActivity {
+		// 6.1.0 初始化
+		//@InjectView(R.id.text_view) TextView textView;
+		//@InjectView(R.id.editText) EditText editText;
+		//@InjectView(R.id.button) Button button;
+		//@InjectView(R.id.list_view) ListView listView;
 
-	// 控件初始化
-	@FindView(R.id.text_view) TextView textView;
-	@FindView(R.id.editText) EditText editText;
-	@FindView(R.id.button) Button button;
-	@FindView(R.id.list_view) ListView listView;
-	
-	// 资源初始化 
-	@ResourceString(R.string.app_name) String textString;
-	
-	private SimpleAdapter adapter;
-	
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.butter_knife_layout);
-		// 引入 ButterKnife 注解
-		// ButterKnife.inject(this); // 6.1.0
-		ButterKnife.bind(this);
+		// 控件初始化
+		@FindView(R.id.text_view) TextView textView;
+		@FindView(R.id.editText) EditText editText;
+		@FindView(R.id.button) Button button;
+		@FindView(R.id.list_view) ListView listView;
+		
+		// 资源初始化 
+		@ResourceString(R.string.app_name) String textString;
+		
+		private SimpleAdapter adapter;
+		
+		@Override
+		protected void onCreate(Bundle savedInstanceState) {
+			super.onCreate(savedInstanceState);
+			setContentView(R.layout.butter_knife_layout);
+			// 引入 ButterKnife 注解
+			// ButterKnife.inject(this); // 6.1.0
+			ButterKnife.bind(this);
 
-		textView.setText("ButterKnife TextView");
-		editText.setText(textString);
-		button.setText("ButterKnife Button");
+			textView.setText("ButterKnife TextView");
+			editText.setText(textString);
+			button.setText("ButterKnife Button");
+			
+			adapter = new SimpleAdapter(this);
+			listView.setAdapter(adapter);
+			
+		}
 		
-		adapter = new SimpleAdapter(this);
-		listView.setAdapter(adapter);
+		// 按钮单击
+		@OnClick(R.id.button)
+		void btnClick() {
+			showShortToast("butter knife inject button click listener");
+		}
 		
+		// 按钮长按
+		@OnLongClick(R.id.button)
+		boolean onLongClick(){
+			showShortToast("ButterKnife Long Click ...");
+			return true;
+		}
+		
+		// list item 单击
+		@OnItemClick(R.id.list_view)
+		void onListItemClick(int position){
+			showShortToast("position..." + adapter.getItem(position).toString());
+		}
+		
+		// list item 长按
+		@OnItemLongClick(R.id.list_view)
+		boolean onListLongClick(){
+			showShortToast("ButterKnife List Long Click ...");
+			return true;
+		}
+		
+		@Override
+		protected void onDestroy() {
+			// TODO Auto-generated method stub
+			super.onDestroy();
+			// 销毁
+			// ButterKnife.reset(this); // 6.1.0
+			ButterKnife.unbind(this);
+		}
 	}
-	
-	// 按钮单击
-	@OnClick(R.id.button)
-	void btnClick() {
-		showShortToast("butter knife inject button click listener");
-	}
-	
-	// 按钮长按
-	@OnLongClick(R.id.button)
-	boolean onLongClick(){
-		showShortToast("ButterKnife Long Click ...");
-		return true;
-	}
-	
-	// list item 单击
-	@OnItemClick(R.id.list_view)
-	void onListItemClick(int position){
-		showShortToast("position..." + adapter.getItem(position).toString());
-	}
-	
-	// list item 长按
-	@OnItemLongClick(R.id.list_view)
-	boolean onListLongClick(){
-		showShortToast("ButterKnife List Long Click ...");
-		return true;
-	}
-	
-	@Override
-	protected void onDestroy() {
-		// TODO Auto-generated method stub
-		super.onDestroy();
-		// 销毁
-		// ButterKnife.reset(this); // 6.1.0
-		ButterKnife.unbind(this);
-	}
-}
 ```
 
 * Fragment
 
- ```java
+```java
 public class ButterKnifeFragment extends Fragment {
   @InjectView(R.id.button1) Button button1;
   @InjectView(R.id.button2) Button button2;
