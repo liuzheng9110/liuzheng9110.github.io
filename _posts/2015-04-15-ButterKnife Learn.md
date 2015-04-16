@@ -23,7 +23,7 @@ title: ButterKnife 简单使用
 
 * Activity 
 
-```java 
+``` 
 
 	public class ButterKnifeActivity extends BaseActivity {
 		// 6.1.0 初始化
@@ -99,7 +99,7 @@ title: ButterKnife 简单使用
 
 * Fragment
 
-```java 
+``` 
 
 	public class ButterKnifeFragment extends Fragment {
 	  @InjectView(R.id.button1) Button button1;
@@ -116,7 +116,7 @@ title: ButterKnife 简单使用
 
 * ViewHolder
 
-```java 
+``` 
 
     ......
     
