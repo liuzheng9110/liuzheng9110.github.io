@@ -23,7 +23,7 @@ title: ButterKnife 简单使用
 
 * Activity 
 
-```java
+```java 
 	public class ButterKnifeActivity extends BaseActivity {
 		// 6.1.0 初始化
 		//@InjectView(R.id.text_view) TextView textView;
@@ -98,7 +98,7 @@ title: ButterKnife 简单使用
 
 * Fragment
 
-```java
+```java 
 public class ButterKnifeFragment extends Fragment {
   @InjectView(R.id.button1) Button button1;
   @InjectView(R.id.button2) Button button2;
@@ -114,7 +114,7 @@ public class ButterKnifeFragment extends Fragment {
 
 * ViewHolder
 
-```java
+```java 
     ......
     
     public View getView(int position, View convertView, ViewGroup parent) {
