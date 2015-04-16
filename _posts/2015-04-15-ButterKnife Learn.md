@@ -22,19 +22,8 @@ title: ButterKnife 简单使用
  **部分示例代码**
 
 * Activity 
+
 ```java
-/**
- * 
- *  Class Name: ButterKnifeActivity.java
- *  Function:ButterKnife 简单使用
- *  
- *  @author liuzheng
- *  @version 1.0 
- *  @created 2015年4月15日 上午9:01:44
- *  @Copyright http://liuz.me 
- *  @url http://jakewharton.github.io/butterknife/
- *  	 http://jakewharton.github.io/butterknife/ide-eclipse.html  // ButterKnife eclipse 配置
- */
 public class ButterKnifeActivity extends BaseActivity {
     // 6.1.0 初始化
     //@InjectView(R.id.text_view) TextView textView;
@@ -108,6 +97,7 @@ public class ButterKnifeActivity extends BaseActivity {
 ```
 
 * Fragment
+
  ```java
 public class ButterKnifeFragment extends Fragment {
   @InjectView(R.id.button1) Button button1;
@@ -122,7 +112,8 @@ public class ButterKnifeFragment extends Fragment {
 }
  ```
 
-* ViewHoldre
+* ViewHolder
+
 ```java
     ......
     
