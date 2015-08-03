@@ -1,0 +1,19 @@
+{
+    "tiripPackage": {
+        "service": {
+            "serviceId": "ITAX.APP.FEEDBACK",
+            "tranSeq": "1357505760620140417111526135098915",
+            "tranReqDate": "2014-04-08 11:09:38"
+        },
+        "businessContent": {
+            "response": {
+                "rtnCode": "00",
+                "rtnMsg": "反馈发送成功"
+            }
+        },
+        "returnState": {
+            "returnCode": "00",
+            "returnMessage": "请求处理成功"
+        }
+    }
+}
