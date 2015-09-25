@@ -1,5 +1,5 @@
 ---
-layout:_post
+layout: post
 title: Android 各种错误
 ---
 

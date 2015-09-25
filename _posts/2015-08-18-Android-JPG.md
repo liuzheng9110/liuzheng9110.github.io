@@ -1,5 +1,5 @@
 ---
-layout: _post
+layout: post
 title: Android中decode JPG时建议使用inPreferQualityOverSpeed
 ---
 
