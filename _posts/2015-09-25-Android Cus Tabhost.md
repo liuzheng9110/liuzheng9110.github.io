@@ -10,20 +10,9 @@ title: Android 自定义 Tabhost
  
  ![android cus tabhost](../img/android cus tabhost.gif)
  
- Activity 
+ ###### Activity 
 
-`java
-	 /**
-	 * 
-	 *  Class Name: CusTabHostActivity.java
-	 *  Function: 自定义 TabHost
-	 *  
-	 *  @author liuzheng
-	 *  @version 1.0 
-	 *  @created 2015年9月23日 上午11:00:27
-	 *  @Copyright http://liuz.me 
-	 *  @url
-	 */
+	 
 	public class CusTabHostActivity extends BaseActivity implements OnTabChangeListener {
 		
 		private TabHost tabHost;
@@ -79,12 +68,12 @@ title: Android 自定义 Tabhost
 		}
 	}
 
-`
 
 
- cus_tab_host_layout.xml 
+
+ ###### cus_tab_host_layout.xml 
  
-`xml
+
   	<?xml version="1.0" encoding="utf-8"?>
 	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
 	    xmlns:tools="http://schemas.android.com/tools"
@@ -139,11 +128,11 @@ title: Android 自定义 Tabhost
 	        </FrameLayout>
 	    </LinearLayout>
 	</TabHost>
-`
 
-cus_tab_layout.xml   `此处注意：默认选择第一个，所有 style 默认为 right `
 
-`
+###### cus_tab_layout.xml   `此处注意：默认选择第一个，所有 style 默认为 right `
+
+
 	<?xml version="1.0" encoding="utf-8"?>
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:id="@+id/cus_tab_btn"
@@ -151,13 +140,13 @@ cus_tab_layout.xml   `此处注意：默认选择第一个，所有 style 默认
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:text="申报信息" />
-`
 
 
 
-style & drawable & color  `此处 item 属性根据需求自行设置`
 
-`
+###### style & drawable & color  `此处 item 属性根据需求自行设置`
+
+
     <style name="sx_top_bg_left">
         <item name="android:layout_height">20dp</item>
         <item name="android:layout_width">0dp</item>
@@ -180,10 +169,10 @@ style & drawable & color  `此处 item 属性根据需求自行设置`
         <item name="android:background">@drawable/sx_top_btn_bg_selector_right</item>
     </style>
 
-`
 
-drawable/sx_top_btn_bg_selector_left.xml
-`
+
+###### drawable/sx_top_btn_bg_selector_left.xml
+
 	<?xml version="1.0" encoding="utf-8"?>
 	<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -216,10 +205,10 @@ drawable/sx_top_btn_bg_selector_left.xml
 	    </item>
 
 	</selector>
-`
 
-drawable/sx_top_btn_bg_selector_right.xml
-`
+
+###### drawable/sx_top_btn_bg_selector_right.xml
+
 	<?xml version="1.0" encoding="utf-8"?>
 	<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -252,13 +241,13 @@ drawable/sx_top_btn_bg_selector_right.xml
 	    </item>
 
 	</selector>
-`
 
 
-`
+
+
     <color name="shuixin_voice_text">#33a6ff</color>
     <color name="sx_msg_change_bg">#EFEFF4</color>
-`
+
 
 
 
