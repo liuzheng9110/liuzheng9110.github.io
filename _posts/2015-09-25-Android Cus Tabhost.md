@@ -1,5 +1,5 @@
 ---
-layout: _post
+layout: post
 title: Android 自定义 Tabhost 
 ---
 
