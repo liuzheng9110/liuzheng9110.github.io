@@ -10,7 +10,7 @@ title: Android 自定义 Tabhost
  
  ![android cus tabhost](../img/android cus tabhost.gif)
  
- ###### Activity 
+###### Activity 
 
 	 
 	public class CusTabHostActivity extends BaseActivity implements OnTabChangeListener {
@@ -71,7 +71,7 @@ title: Android 自定义 Tabhost
 
 
 
- ###### cus_tab_host_layout.xml 
+###### cus_tab_host_layout.xml 
  
 
   	<?xml version="1.0" encoding="utf-8"?>
