@@ -23,14 +23,16 @@ github 地址：
 在文章中有这么一句话
 `주의  : 작업된 프로젝트의 인코딩 속성에 맞게 -Dfile.encoding 옵션을 바꿔 주셔야 한글이 깨지지 않습니다`
 
-原谅不懂韩文，通过 Google 翻译明白了大致意思是说，根据项目编码需要添加 `-Dfile.encoding` 参数
+原谅不懂韩文，通过 Google 翻译明白了大致意思是说，
+根据项目编码需要添加 `-Dfile.encoding` 参数
 
 
-后来通过查看项目实际编码，发现项目使用的是 U8 的编码，所以会提示上述错误，添加 `-Dfile.encoding` 参数，问题解决
+后来通过查看项目实际编码，发现项目使用的是 U8 的编码，所以会提示上述错误，
+添加 `-Dfile.encoding` 参数，问题解决
 
 最终执行命令为 `java -Dfile.encoding=UTF-8 -jar AndroidUnusedResources.jar >del.txt` 
 
 
-
+ppppsssss....切记项目编码
 
 
