@@ -63,8 +63,8 @@ baseurl: ""
 
 # default kramdown /// gfm  marked
 markdown: kramdown
-highlighter: pygments
-permalink: /:title/
+# highlighter: pygments
+permalink: /blog/:year-:month-:day/:title/
 
 # The release of Jekyll Now that you're using
 version: v1.0.0

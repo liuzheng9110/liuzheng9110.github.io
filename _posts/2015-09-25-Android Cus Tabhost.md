@@ -9,7 +9,8 @@ title: Android 自定义 Tabhost
  先上效果图
  
  ![android cus tabhost](../img/android cus tabhost.gif)
- 
+
+
 ###### Activity 
 
 	 
@@ -72,7 +73,7 @@ title: Android 自定义 Tabhost
 
 
 ###### cus_tab_host_layout.xml 
- 
+
 
   	<?xml version="1.0" encoding="utf-8"?>
 	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
