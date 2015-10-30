@@ -3,12 +3,11 @@ layout: post
 title: Android 打开系统设置界面 Intent 
 ---
 
-`
-  Intent intent = new Intent("/"); 
-　ComponentName cm = new ComponentName("com.android.settings","com.android.settings.WirelessSettings"); 
-　intent.setComponent(cm); 
-　intent.setAction("android.intent.action.VIEW"); 
-　activity.startActivityForResult( intent , 0);
+` Intent intent = new Intent("/");  
+　ComponentName cm = new ComponentName("com.android.settings","com.android.settings.WirelessSettings");  
+　intent.setComponent(cm);  
+　intent.setAction("android.intent.action.VIEW");  
+　activity.startActivityForResult( intent , 0);  
 `
 
  经过测试，使用下面字段可以在软件中直接打开相应的系统界面
