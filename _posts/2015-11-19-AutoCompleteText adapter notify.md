@@ -43,3 +43,11 @@ title: Andorid AutoCompleteText ArrayAdapter 数据更新
 
 
 
+http://stackoverflow.com/questions/15861017/why-cant-i-update-the-autocompletetextview-dynamically
+
+`Do not modify the ArrayList. Modify the ArrayAdapter, using add(), insert(), and remove(). You do not need to worry about notifyDataSetChanged().
+
+Also, I agree with Mayra -- consider using AsyncTask instead of your thread and runOnUiThread() combination.`
+
+
+
