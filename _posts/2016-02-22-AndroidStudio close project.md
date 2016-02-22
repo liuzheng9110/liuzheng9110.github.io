@@ -13,24 +13,24 @@ title: Android Studio close project
 
 单击 File 菜单，选择 close project 
 
-![studio01](../images/studio01.png)
+![studio01](http://liuz.me/images/studio01.png)
 
 好了，现在就回到了启动界面了，可以选择新建或者导入以及其他相关配置
 
-![studio02](../images/studio02.png)
+![studio02](http://liuz.me/images/studio02.png)
 
 
 此外，如果觉得一个 Project 中 Module 太多的，可以选择关闭部分
 
 选择 Project 右键，选择 Open Project Structure (快捷键 F12)
 
-![studio03](../images/studio03.png)
+![studio03](http://liuz.me/images/studio03.png)
 
 
 在打开界面左侧 Modules中 选中要关闭的项目，点击左上角的减号，会弹出个对话框
 看下内容，只是从 Project 移除 Module，并不会删除任何文件，点击 Yes 之后 Gradle 会重新 build
 
-![studio04](../images/studio04.png)
+![studio04](http://liuz.me/images/studio04.png)
 
 
 
