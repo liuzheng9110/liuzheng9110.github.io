@@ -1,5 +1,5 @@
 ---
-layout: _post
+layout: post
 title: Android Studio close project 
 ---
 
