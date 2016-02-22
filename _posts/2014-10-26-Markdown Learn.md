@@ -98,7 +98,7 @@ title: Markdown Learning
 2、`![图片描述](图片链接)
 ![Think](../img/Think.png)
 `
-![Think](../../img/Think.png)
+![Think](../../../img/Think.png)
 
 
 
