@@ -94,6 +94,7 @@ title: Markdown Learning
 `
 ![Think][4]
 [4]:http://liuz.me/img/Think.png
+
 2、`![图片描述](图片链接)
 ![Think](../img/Think.png)
 `
