@@ -8,7 +8,7 @@ title: Android 自定义 Tabhost
 
  先上效果图
  
- ![android cus tabhost](../img/android cus tabhost.gif)
+ ![android cus tabhost](http://liuz.me/img/android cus tabhost.gif)
 
 
 ###### Activity 
