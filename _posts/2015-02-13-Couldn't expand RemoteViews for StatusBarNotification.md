@@ -9,7 +9,7 @@ title: 自定义通知遇到的问题 Couldn't expand RemoteViews for StatusBarN
 
 
 google 找了很多  都没有解决方案  最终在官方api找到了相关解释
-![CreatingLayout](../img/notify_icon_01.png)
+![CreatingLayout](http://liuz.me/img/notify_icon_01.png)
 
 
 [http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout](http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout)
