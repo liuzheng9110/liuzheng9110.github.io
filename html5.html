@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>MUI Test</title>
+	</head>
+
+	<script type="application/javascript">
+		function getInputVal(){
+			var input = document.getElementById("text").value;
+			return input;
+		}
+	
+		function androidClick() {
+			window.Android.showDialog(getInputVal());
+		}
+
+		function iosClick() {
+			window.webkit.messageHandlers.AppModel.postMessage({body: getInputVal()});
+		}
+	</script>
+
+	<body>
+		<h1> html5 调用原生方法</h1>
+		<textarea rows="5" id="text" placeholder="输入需要传递的参数"></textarea>
+		<div>
+			<p>
+				android 调用 <input type="button" id="android" value="android 对话框" onclick="androidClick()" />
+			</p> 
+			<p>
+				ios 调用 <input type="button" id="ios" value="ios 对话框" onclick="iosClick()" />
+			</p>
+		</div>
+
+	</body>
+
+</html>
