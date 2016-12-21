@@ -3,12 +3,12 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Test</title>
+		<title>MUI Test</title>
 	</head>
 
 	<script type="application/javascript">
 		function getInputVal(){
-			var input = document.getElementById("text").value;
+			var input = document.getElementById("taVal").value;
 			return input;
 		}
 	
@@ -24,16 +24,14 @@
 
 	<body>
 		<h1> html5 调用原生方法</h1>
-		<textarea rows="5" id="text" placeholder="输入需要传递的参数"></textarea>
+		<textarea rows="5" id="taVal" placeholder="输入需要传递的参数"></textarea>
 		<div>
 			<p>
 				android 调用 <input type="button" id="android" value="android 对话框" onclick="androidClick()" />
 			</p> 
 			<p>
-				ios 调用 <input type="button" id="ios" value="ios 对话框" onclick="iosClick()" />
+				ios 调用 <input type="button"  id="ios" value="ios 对话框" onclick="iosClick()" />
 			</p>
 		</div>
-
 	</body>
-
 </html>
