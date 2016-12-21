@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>MUI Test</title>
+		<title>Test</title>
 	</head>
 
 	<script type="application/javascript">
@@ -13,7 +13,8 @@
 		}
 	
 		function androidClick() {
-			window.Android.showDialog(getInputVal());
+			var msg = getInputVal();
+			window.Android.showDialogFromHtml(msg);
 		}
 
 		function iosClick() {
