@@ -1,0 +1,21 @@
+{
+    "head": {
+        "appVersion": "1.0",
+        "pdaModel": "Meizu_M3s",
+        "sysVersion": "22",
+        "token": "",
+        "userId": "10010"
+    },
+    "body": {
+        "addr": "卡的设计符合",
+        "id": "1",
+        "imageUrls": [
+            "aaaaa",
+            "bbbbb",
+            "ccccc",
+            "ddddd"
+        ],
+        "name": "撒旦法撒旦法",
+        "sex": "男"
+    }
+}
