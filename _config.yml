@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: 小刘子
+name: 柳林风声
 
 # Short bio or description (displayed in the header)
 description: undefined 野猿一只
@@ -85,3 +85,4 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - CNAME
